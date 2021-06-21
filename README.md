@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Podcastr
 
-## Getting Started
+**Descrição do projeto:** Podcastr é um site que disponibiliza podcasts sobre tecnologias.</br>
+**Este projeto foi desenvolvido inicialmente no curso:** "Next Level Week - 5° edição"</br>
+**Objetivo no projeto:** estudo e aprimoramento das habilidades em reactjs. 
+## Melhorias a aplicar
+- Responsividade
+- PWA (next-pwa)
+- Tema dark
+- Versão desktop
+- Personalização da barra scroll interna
+- Internacionalização
 
-First, run the development server:
+## Tecnologias
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Tecnologias utilizadas neste projeto:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [ReactJS] - HTML enhanced for web apps!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Instalação
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+yarn install
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Execução do projeto
 
-## Learn More
+- [Servidor de teste] yarn server
+- [Front-end] yarn dev
+#### Gerando build para produção
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+yarn build
